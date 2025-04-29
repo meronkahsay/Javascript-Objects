@@ -51,7 +51,7 @@ function calculateGrades(grades) {
         const total = scores.reduce((sum, score) => sum + score, 0); 
         const average = total / scores.length; 
         const status = average > 70 ? "Pass" : "Fail"; 
-        console.log(`${student}: Average = ${average.toFixed(2)}, ${status}`);
+        console.log(`${student}: Average = ${average}, ${status}`);
     }
 }
 
